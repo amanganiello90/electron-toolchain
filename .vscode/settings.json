@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "search.exclude": {
+    "**/coverage_js": true,
+    "**/coverage": true,
+    "**/dist": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "html.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "typescriptHero.resolver.organizeOnSave": false
+}

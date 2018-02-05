@@ -1,0 +1,32 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    "alexiv.vscode-angular2-files",
+    "Angular.ng-template",
+    "johnpapa.angular2",
+    "natewallace.angular2-inline",
+    "infinity1207.angular2-switcher",
+    "CoenraadS.bracket-pair-colorizer",
+    "wmaurer.change-case",
+    "msjsdiag.debugger-for-chrome",
+    "PeterJausovec.vscode-docker",
+    "EditorConfig.editorconfig",
+    "mkaufman.htmlhint",
+    "xabikos.jasminesnippets",
+    "richie5um2.vscode-statusbar-json-path",
+    "IBM.output-colorizer",
+    "christian-kohler.path-intellisense",
+    "richie5um2.vscode-sort-json",
+    "mrmlnc.vscode-stylefmt",
+    "shinnn.stylelint",
+    "krizzdewizz.tag-rename",
+    "wayou.vscode-todo-highlight",
+    "eg2.tslint",
+    "rbbit.typescript-hero",
+    "robertohuertasm.vscode-icons",
+    "stringham.angular-template-formatter",
+    "spywhere.guides"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "electron-debug-install",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "electron-debug-install",
+  "scripts": {},
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "electron-debug": "1.5.0"
+  }
+}

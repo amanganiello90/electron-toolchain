@@ -1,0 +1,22 @@
+# Typescript src files
+.sonar
+.vscode
+node_modules
+.git
+.tmp
+.editorconfig
+.gitignore
+.jshintrc
+.npmrc
+.stylelintrc.json
+.travis.yml
+.appveyor.yml
+debug.log
+wiki
+
+
+
+
+
+
+

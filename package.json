@@ -1,14 +1,13 @@
 {
-  "name": "electron-toolchain",
+  "name": "electron-toolchain-quick-start",
   "version": "1.0.0",
+  "description": "quick start to use electron-toolchain-quick-start",
   "main": "main.js",
-  "description": "electron-toolchain",
   "repository": {
     "url": "https://github.com/amanganiello90/electron-toolchain"
   },
   "scripts": {
-    "electron.dev": "gulp electron",
-    "electron.prod": "gulp electron -e prod"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "Apache-2.0",
   "contributors": [
@@ -16,18 +15,13 @@
       "name": "amanganiello90"
     }
   ],
-  "devDependencies": {},
-  "dependencies": {
-    "del": "^3.0.0",
-    "electron": "1.8.1",
-    "electron-packager": "^10.1.2",
-    "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
-    "gulp-install": "^1.1.0",
+  "devDependencies": {
     "path": "^0.12.7",
     "require-dir": "^0.3.2",
-    "run-sequence": "^2.2.1",
-    "shell_exec": "^1.0.3",
-    "yargs": "^11.0.0"
-  }
+    "gulp": "^3.9.1",
+    "electron-toolchain": "1.0.0"
+  },
+  "dependencies": {
+  },
+  "author": ""
 }

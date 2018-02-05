@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 
-require('require-dir')('./task');
 
 
-gulp.task('default', ['electron']);
+require('require-dir')('./node_modules/electron-toolchain/task');
+

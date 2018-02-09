@@ -21,6 +21,37 @@ gulp.task('min', function() {
 });
 
 
+gulp.task('webpack.prod', function() {
+	var nodeModules = {};
+fs.readdirSync(PATH.dest + PATH.app.tmp + '/src/node_modules')
+  .filter(function(x) {
+    return ['.bin'].indexOf(x) === -1;
+  })
+  .forEach(function(mod) {
+    nodeModules[mod] = 'commonjs ' + mod;
+  });
+	
+	
+  return gulp.src(PATH.dest + PATH.app.tmp + '/src/renderer.js')
+ .pipe(webpack({
+    target: 'node',
+	externals: nodeModules,
+	output: {
+    filename: 'renderer.js'
+  },
+  plugins: [
+    new UglifyJsPlugin()
+  ]
+  }))
+    .pipe(gulp.dest('dist/'));
+});
+
+
+var webpack = require('gulp-webpack');
+var fs = require('fs');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
+
 
 
 package.json:
